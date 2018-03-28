@@ -13,6 +13,7 @@ body {
 .header {
   background-color: black;
   color: white;
+  margin: 0 auto;
 }
 .header .logo-container {
   display: flex;
@@ -49,7 +50,7 @@ h4 {
   background-size: cover;
   height: 25em;
 }
-.title {
+.headline {
   background-color: black;
   color: white;
   width: 20em;
@@ -57,7 +58,7 @@ h4 {
   position: relative;
   top: 9em;
 }
-.title h1 {
+.headline h1 {
   font-size: 2em;
   line-height: 1.2em;
   margin: 0.25em 0px;
@@ -87,7 +88,7 @@ nav ul {
   display: none;
 }
           /*products*/
-.products, .business-info {
+.products, .buisness-info {
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
@@ -112,4 +113,26 @@ nav ul {
   color: white;
   text-align: center;
   padding: 0.5em;
+}
+            /*buisness info*/
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+.info {
+  width: 35%;
+}
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+          /*footer*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 5em 0;
+    margin-top: 4em;
 }
