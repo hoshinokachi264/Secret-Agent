@@ -10,6 +10,9 @@ body {
   font-family: Helvetica, sans-serif;
   line-height: 1.4em;
 }
+li {
+  display: list-item;
+}
 .header {
   background-color: black;
   color: white;
@@ -84,7 +87,7 @@ nav ul {
   max-width: 960px;
   margin: 0 auto;
 }
-.mobile-container {
+.mobile {
   display: none;
 }
           /*products*/
@@ -131,8 +134,27 @@ nav ul {
 }
           /*footer*/
 footer {
-    background-color: black;
-    color: white;
-    padding: 5em 0;
-    margin-top: 4em;
+  background-color: black;
+  color: white;
+  padding: 5em 0;
+  margin-top: 4em;
+}
+          /*medis queries*/
+@media only screen and (max-width: 1024px){
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+nav ul {
+  display: none;
+}
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+.mobile {
+  display: block;
+  text-align: center;
+}
 }
